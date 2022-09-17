@@ -34,7 +34,7 @@ const S_Results = styled.section`
 
   h3 {
     color: var(--primary-red);
-    margin-bottom: 2rem;
+    margin-bottom: 20px;
   }
 
   div {
@@ -52,6 +52,7 @@ const S_Results = styled.section`
   .cover {
     display: block;
     position: relative;
+    margin-bottom: 0.5rem;
 
     button {
       padding: 0;

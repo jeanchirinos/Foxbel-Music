@@ -18,7 +18,7 @@ export default function FirstSong() {
       <Flex className='card' column justify='space-between' rowGap={2.5}>
         <div>
           <h2 className='bold'>
-            {song.artist.name} {song.title}
+            {song.artist.name} - {song.title}
           </h2>
           <Flex columnGap={1}>
             <span>Lo mejor de {song.artist.name}</span>
@@ -93,7 +93,7 @@ const S_FirstSong = styled.section<TProps>`
   }
 
   .followers {
-    color: var(--dark-red-secondary);
+    color: var(--alt-red);
   }
 
   @media (min-width: ${LG}) {

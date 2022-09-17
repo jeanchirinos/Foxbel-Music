@@ -16,6 +16,7 @@ export default createGlobalStyle(
       --primary: #eb5757;
       --dark-red-secondary: #662323;
       --primary-red: #e86060;
+
       --inline-padding: 1rem;
       --soft-gray: #bdbdbd;
 
@@ -29,12 +30,14 @@ export default createGlobalStyle(
       --color: black;
       --opposite: black;
       --scrollbar: rgba(0, 0, 0, 0.2);
+      --alt-red: var(--dark-red-secondary);
 
       &.dark {
         --bg: rgb(26, 26, 26);
         --color: white;
         --scrollbar: rgba(255, 255, 255, 0.2);
         --opposite: white;
+        --alt-red: var(--soft-gray);
       }
     }
 
