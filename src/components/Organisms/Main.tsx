@@ -11,7 +11,7 @@ export default function Main() {
   )
 }
 
-const S_Main = styled.main`
+const S_Main = styled.div`
   padding-block: 2rem calc(100px + 2.5rem);
   grid-area: content;
 `

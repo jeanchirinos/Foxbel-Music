@@ -1,0 +1,20 @@
+{
+  "files.exclude": {
+    "node_modules": true,
+    "public": true,
+    "src/vite-env.d.ts": true,
+    "index.html": true,
+    ".gitignore": true,
+    "package.json": true,
+    "package-lock.json": true,
+    "tsconfig.json": true,
+    "tsconfig.node.json": true,
+    "vite.config.ts": true,
+    ".eslintrc.json": true,
+    ".prettierrc.json": true,
+    ".env.local": true,
+    ".env.development.local": true,
+    ".env.production.local": true,
+    "README.md": true,
+  }
+}
